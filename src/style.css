@@ -1,0 +1,13 @@
+body {
+	height: 100vh;
+}
+
+body > div {
+	height: 100%;
+}
+
+.container {
+	box-sizing: border-box;
+	height: 100%;
+	padding: 25px 36px 27px 64px;
+}
