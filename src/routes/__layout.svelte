@@ -1,3 +1,5 @@
-<h1>Main Layout</h1>
+<script>
+	import '../normalize.css';
+</script>
 
 <slot />
