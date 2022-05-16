@@ -3,4 +3,6 @@
 	import '../style.css';
 </script>
 
-<slot />
+<div class="container">
+	<slot />
+</div>
