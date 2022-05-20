@@ -10,43 +10,43 @@ body > div {
 }
 
 .container {
-	box-sizing: border-box;
+	display: flex;
 	height: 100%;
-	padding: 25px 36px 27px 64px;
 }
 
-.grid {
+.main {
+	box-sizing: border-box;
+	padding: 25px 50px 27px 64px;
+	width: 1186px;
+}
+
+.main__grid {
 	column-gap: 50px;
 	display: grid;
-	grid-template-columns: repeat(5, 324px);
+	grid-template-columns: repeat(3, 324px);
 	grid-template-rows: repeat(4, 200px);
-	height: 100%;
 	row-gap: 40px;
-	width: 100%;
 }
 
-.brand-area {
-	border: 2px solid pink;
-	grid-column-start: 1;
-	grid-column-end: span 2;
-	grid-row-start: 1;
-	grid-row-end: span 1;
-}
-
-.art-area {
+.art {
 	border: 2px solid aqua;
-	grid-column-start: 4;
-	grid-column-end: span 1;
-	grid-row-start: 1;
-	grid-row-end: span 4;
+	box-sizing: border-box;
+	padding: 0;
+	width: 324px;
 }
 
-.nav-area {
-	border: 2px solid green;
-	grid-column-start: 5;
-	grid-column-end: span 1;
-	grid-row-start: 2;
-	grid-row-end: span 2;
+.nav {
+	box-sizing: border-box;
+	padding: 25px 36px 27px 50px;
+	width: 410px;
+}
+
+.nav__grid {
+	column-gap: 50px;
+	display: grid;
+	grid-template-columns: repeat(1, 324px);
+	grid-template-rows: repeat(4, 200px);
+	row-gap: 40px;
 }
 
 .brand-title {
@@ -54,14 +54,6 @@ body > div {
 	font-size: 128px;
 	font-weight: 900;
 	line-height: 120px;
-}
-
-.brand-subtitle-area {
-	border: 2px solid hotpink;
-	grid-column-start: 1;
-	grid-column-end: span 3;
-	grid-row-start: 3;
-	grid-row-end: span 1;
 }
 
 .brand-subtitle {
