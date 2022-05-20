@@ -11,3 +11,45 @@ body > div {
 	height: 100%;
 	padding: 25px 36px 27px 64px;
 }
+
+.grid {
+	column-gap: 50px;
+	display: grid;
+	grid-template-columns: repeat(5, 324px);
+	grid-template-rows: repeat(4, 200px);
+	height: 100%;
+	row-gap: 40px;
+	width: 100%;
+}
+
+.brand-area {
+	border: 1px solid pink;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}
+
+.art-area {
+	border: 1px solid aqua;
+	grid-column-start: 4;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 4;
+}
+
+.nav-area {
+	border: 1px solid green;
+	grid-column-start: 5;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 4;
+}
+
+.content-area {
+	border: 1px solid purple;
+	grid-column-start: 1;
+	grid-column-end: span 3;
+	grid-row-start: 2;
+	grid-row-end: span 3;
+}
