@@ -1,1 +1,2 @@
-<h1>HOME</h1>
+<span class="brand-subtitle">Software Engineer</span>
+<span class="brand-subtitle">Designer</span>

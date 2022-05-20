@@ -65,6 +65,7 @@ body > div {
 }
 
 .brand-subtitle {
+	display: block;
 	font-family: 'Gothic A1', sans-serif;
 	font-size: 84px;
 	font-weight: 400;
