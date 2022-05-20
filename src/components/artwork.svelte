@@ -2,7 +2,7 @@
 	import P5 from 'p5-svelte';
 
 	const config = {
-		numOfTriangles: 20,
+		numOfTriangles: 25,
 		colors: ['#252525', '#29A340', '#2BAAD7', '#EF0F8B', '#F11404']
 	};
 
@@ -12,12 +12,12 @@
 
 	function initTriangle(p) {
 		const rotationDeg = [90, 180, 270];
-		const scrollAmount = [5, 13, 20];
+		const scrollAmount = [9, 16, 25];
 		return class Triangle {
 			constructor() {
 				this.fillColor = p.color(getRandomFromArr(config.colors));
 				this.rotateAngle = getRandomFromArr(rotationDeg);
-				this.sideLength = p.random(300, p.width * 1.2);
+				this.sideLength = 324;
 				this.yOffset = p.random(-p.height, p.height);
 				this.scrollAmount = getRandomFromArr(scrollAmount);
 			}
