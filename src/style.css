@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
 
+/* Body setup */
 body {
 	height: 100vh;
 }
@@ -9,6 +10,7 @@ body > div {
 	height: 100%;
 }
 
+/* Containers and Grids */
 .container {
 	display: flex;
 	height: 100%;
@@ -49,6 +51,7 @@ body > div {
 	row-gap: 40px;
 }
 
+/* Brand */
 .brand {
 	grid-column: 1 / span 2;
 	grid-row: 1 / span 1;
@@ -61,6 +64,21 @@ body > div {
 	line-height: 120px;
 }
 
+/* Nav Menu */
+.nav-menu {
+	grid-column: 1 / span 1;
+	grid-row: 2 / span 2;
+}
+
+.nav-menu__text {
+	display: block;
+	font-family: 'Gothic A1', sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 80px;
+}
+
+/* Home */
 .home {
 	grid-column: 1 / span 3;
 	grid-row: 3 / span 1;

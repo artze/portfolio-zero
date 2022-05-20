@@ -34,6 +34,13 @@
 			<div class="control-cell pos1-2" />
 			<div class="control-cell pos1-3" />
 			<div class="control-cell pos1-4" />
+
+			<div class="nav-menu">
+				<span class="nav-menu__text">Home</span>
+				<span class="nav-menu__text">About</span>
+				<span class="nav-menu__text">Contact</span>
+				<span class="nav-menu__text">Journal</span>
+			</div>
 		</div>
 	</div>
 </div>
