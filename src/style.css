@@ -79,3 +79,92 @@ body > div {
 	font-weight: 400;
 	line-height: 120px;
 }
+
+/* Grid Control */
+.control-cell {
+	border: 1px solid navy;
+}
+
+.pos1-1 {
+	grid-column: 1 / span 1;
+	grid-row: 1 / span 1;
+}
+.pos2-1 {
+	grid-column: 2 / span 1;
+	grid-row: 1 / span 1;
+}
+.pos3-1 {
+	grid-column: 3 / span 1;
+	grid-row: 1 / span 1;
+}
+.pos4-1 {
+	grid-column: 4 / span 1;
+	grid-row: 1 / span 1;
+}
+.pos5-1 {
+	grid-column: 5 / span 1;
+	grid-row: 1 / span 1;
+}
+
+.pos1-2 {
+	grid-column: 1 / span 1;
+	grid-row: 2 / span 1;
+}
+.pos2-2 {
+	grid-column: 2 / span 1;
+	grid-row: 2 / span 1;
+}
+.pos3-2 {
+	grid-column: 3 / span 1;
+	grid-row: 2 / span 1;
+}
+.pos4-2 {
+	grid-column: 4 / span 1;
+	grid-row: 2 / span 1;
+}
+.pos5-2 {
+	grid-column: 5 / span 1;
+	grid-row: 2 / span 1;
+}
+
+.pos1-3 {
+	grid-column: 1 / span 1;
+	grid-row: 3 / span 1;
+}
+.pos2-3 {
+	grid-column: 2 / span 1;
+	grid-row: 3 / span 1;
+}
+.pos3-3 {
+	grid-column: 3 / span 1;
+	grid-row: 3 / span 1;
+}
+.pos4-3 {
+	grid-column: 4 / span 1;
+	grid-row: 3 / span 1;
+}
+.pos5-3 {
+	grid-column: 5 / span 1;
+	grid-row: 3 / span 1;
+}
+
+.pos1-4 {
+	grid-column: 1 / span 1;
+	grid-row: 4 / span 1;
+}
+.pos2-4 {
+	grid-column: 2 / span 1;
+	grid-row: 4 / span 1;
+}
+.pos3-4 {
+	grid-column: 3 / span 1;
+	grid-row: 4 / span 1;
+}
+.pos4-4 {
+	grid-column: 4 / span 1;
+	grid-row: 4 / span 1;
+}
+.pos5-4 {
+	grid-column: 5 / span 1;
+	grid-row: 4 / span 1;
+}
