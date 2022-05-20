@@ -8,9 +8,7 @@
 		<div class="brand-area">
 			<span class="brand-title">Arthur W</span>
 		</div>
-		<div class="content-area">
-			<slot />
-		</div>
+		<slot />
 		<div class="art-area" />
 		<div class="nav-area" />
 	</div>

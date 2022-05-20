@@ -64,6 +64,14 @@ body > div {
 	line-height: 120px;
 }
 
+.brand-subtitle-area {
+	border: 1px solid hotpink;
+	grid-column-start: 1;
+	grid-column-end: span 3;
+	grid-row-start: 3;
+	grid-row-end: span 1;
+}
+
 .brand-subtitle {
 	display: block;
 	font-family: 'Gothic A1', sans-serif;
