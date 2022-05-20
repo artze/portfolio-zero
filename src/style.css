@@ -49,14 +49,24 @@ body > div {
 	row-gap: 40px;
 }
 
-.brand-title {
+.brand {
+	grid-column: 1 / span 2;
+	grid-row: 1 / span 1;
+}
+
+.brand__text {
 	font-family: 'Roboto', sans-serif;
 	font-size: 128px;
 	font-weight: 900;
 	line-height: 120px;
 }
 
-.brand-subtitle {
+.home {
+	grid-column: 1 / span 3;
+	grid-row: 3 / span 1;
+}
+
+.home__text {
 	display: block;
 	font-family: 'Gothic A1', sans-serif;
 	font-size: 84px;
