@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+/* Body setup */
 body {
+	background-color: #f9e9ea;
 	height: 100vh;
 }
 
@@ -6,8 +11,197 @@ body > div {
 	height: 100%;
 }
 
+/* Containers and Grids */
 .container {
-	box-sizing: border-box;
+	display: flex;
 	height: 100%;
-	padding: 25px 36px 27px 64px;
+}
+
+.main {
+	box-sizing: border-box;
+	padding: 25px 50px 27px 64px;
+	width: 1186px;
+}
+
+.main__grid {
+	column-gap: 50px;
+	display: grid;
+	grid-template-columns: repeat(3, 324px);
+	grid-template-rows: repeat(4, 200px);
+	row-gap: 40px;
+}
+
+.art {
+	border: 2px solid aqua;
+	box-sizing: border-box;
+	padding: 0;
+	width: 324px;
+}
+
+.nav {
+	box-sizing: border-box;
+	padding: 25px 36px 27px 50px;
+	width: 410px;
+}
+
+.nav__grid {
+	column-gap: 50px;
+	display: grid;
+	grid-template-columns: repeat(1, 324px);
+	grid-template-rows: repeat(4, 200px);
+	row-gap: 40px;
+}
+
+/* Brand */
+.brand {
+	grid-column: 1 / span 2;
+	grid-row: 1 / span 1;
+}
+
+.brand__text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 128px;
+	font-weight: 900;
+	line-height: 120px;
+}
+
+/* Nav Menu */
+.nav-menu {
+	grid-column: 1 / span 1;
+	grid-row: 2 / span 2;
+}
+
+.nav-menu__text {
+	display: block;
+	font-family: 'Gothic A1', sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 80px;
+}
+
+/* Home */
+.home {
+	grid-column: 1 / span 3;
+	grid-row: 3 / span 1;
+}
+
+.home__text {
+	display: block;
+	font-family: 'Gothic A1', sans-serif;
+	font-size: 84px;
+	font-weight: 400;
+	line-height: 120px;
+}
+
+.decorative-horizontal {
+	align-self: end;
+	grid-column: 2 / span 2;
+	grid-row: 3 / span 1;
+}
+
+.decorative-horizontal__line {
+	background-color: black;
+	height: 30px;
+	width: 698px;
+}
+
+.decorative-vertical {
+	justify-self: end;
+	grid-column: 2 / span 2;
+	grid-row: 3 / span 1;
+}
+
+.decorative-vertical__line {
+	background-color: black;
+	height: 170px;
+	width: 30px;
+}
+
+/* Grid Control */
+.control-cell {
+	border: 1px solid lightblue;
+}
+
+.pos1-1 {
+	grid-column: 1 / span 1;
+	grid-row: 1 / span 1;
+}
+.pos2-1 {
+	grid-column: 2 / span 1;
+	grid-row: 1 / span 1;
+}
+.pos3-1 {
+	grid-column: 3 / span 1;
+	grid-row: 1 / span 1;
+}
+.pos4-1 {
+	grid-column: 4 / span 1;
+	grid-row: 1 / span 1;
+}
+.pos5-1 {
+	grid-column: 5 / span 1;
+	grid-row: 1 / span 1;
+}
+
+.pos1-2 {
+	grid-column: 1 / span 1;
+	grid-row: 2 / span 1;
+}
+.pos2-2 {
+	grid-column: 2 / span 1;
+	grid-row: 2 / span 1;
+}
+.pos3-2 {
+	grid-column: 3 / span 1;
+	grid-row: 2 / span 1;
+}
+.pos4-2 {
+	grid-column: 4 / span 1;
+	grid-row: 2 / span 1;
+}
+.pos5-2 {
+	grid-column: 5 / span 1;
+	grid-row: 2 / span 1;
+}
+
+.pos1-3 {
+	grid-column: 1 / span 1;
+	grid-row: 3 / span 1;
+}
+.pos2-3 {
+	grid-column: 2 / span 1;
+	grid-row: 3 / span 1;
+}
+.pos3-3 {
+	grid-column: 3 / span 1;
+	grid-row: 3 / span 1;
+}
+.pos4-3 {
+	grid-column: 4 / span 1;
+	grid-row: 3 / span 1;
+}
+.pos5-3 {
+	grid-column: 5 / span 1;
+	grid-row: 3 / span 1;
+}
+
+.pos1-4 {
+	grid-column: 1 / span 1;
+	grid-row: 4 / span 1;
+}
+.pos2-4 {
+	grid-column: 2 / span 1;
+	grid-row: 4 / span 1;
+}
+.pos3-4 {
+	grid-column: 3 / span 1;
+	grid-row: 4 / span 1;
+}
+.pos4-4 {
+	grid-column: 4 / span 1;
+	grid-row: 4 / span 1;
+}
+.pos5-4 {
+	grid-column: 5 / span 1;
+	grid-row: 4 / span 1;
 }
