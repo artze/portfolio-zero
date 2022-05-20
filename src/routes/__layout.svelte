@@ -5,7 +5,9 @@
 
 <div class="container">
 	<div class="grid">
-		<div class="brand-area" />
+		<div class="brand-area">
+			<span class="brand-title">Arthur W</span>
+		</div>
 		<div class="content-area">
 			<slot />
 		</div>
