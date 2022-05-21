@@ -41,10 +41,18 @@
 			<div class="control-cell pos1-4" /> -->
 
 			<div class="nav-menu">
-				<span class="nav-menu__text">Home</span>
-				<span class="nav-menu__text">About</span>
-				<span class="nav-menu__text">Contact</span>
-				<span class="nav-menu__text">Journal</span>
+				<div class="nav-menu__item">
+					<a href="/" class="nav-menu__text">Home</a>
+				</div>
+				<div class="nav-menu__item">
+					<a href="/about" class="nav-menu__text">About</a>
+				</div>
+				<div class="nav-menu__item">
+					<a href="/" class="nav-menu__text">Contact</a>
+				</div>
+				<div class="nav-menu__item">
+					<a href="https://journal.artze.xyz" class="nav-menu__text" target="_blank">Journal</a>
+				</div>
 			</div>
 		</div>
 	</div>
