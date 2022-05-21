@@ -12,7 +12,7 @@
 
 	function initTriangle(p) {
 		const rotationDeg = [90, 180, 270];
-		const scrollAmount = [9, 16, 25];
+		const scrollAmount = [9, 18, 30];
 		return class Triangle {
 			constructor() {
 				this.fillColor = p.color(getRandomFromArr(config.colors));
@@ -23,7 +23,7 @@
 			}
 
 			update(delta) {
-				if (delta > 0) {
+				if (delta < 0) {
 					this.yOffset += this.scrollAmount;
 				} else {
 					this.yOffset -= this.scrollAmount;
