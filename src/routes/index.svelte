@@ -10,6 +10,19 @@
 </div>
 
 <style>
+	.home {
+		grid-column: 1 / span 3;
+		grid-row: 3 / span 1;
+	}
+
+	.home__text {
+		display: block;
+		font-family: 'Gothic A1', sans-serif;
+		font-size: 2.8rem;
+		font-weight: 400;
+		line-height: 1.42857142857;
+	}
+
 	.decorative-horizontal {
 		align-self: end;
 		grid-column: 2 / span 2;
