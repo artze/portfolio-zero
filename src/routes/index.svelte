@@ -8,3 +8,29 @@
 <div class="decorative-vertical">
 	<div class="decorative-vertical__line" />
 </div>
+
+<style>
+	.decorative-horizontal {
+		align-self: end;
+		grid-column: 2 / span 2;
+		grid-row: 3 / span 1;
+	}
+
+	.decorative-horizontal__line {
+		background-color: black;
+		height: 30px;
+		width: 2fr;
+	}
+
+	.decorative-vertical {
+		justify-self: end;
+		grid-column: 2 / span 2;
+		grid-row: 3 / span 1;
+	}
+
+	.decorative-vertical__line {
+		background-color: black;
+		height: 20.5761316872vh;
+		width: 30px;
+	}
+</style>

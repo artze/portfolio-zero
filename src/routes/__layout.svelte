@@ -28,7 +28,7 @@
 		</div>
 	</div>
 
-	<div class="art">
+	<div class="art" id="canvas">
 		<Artwork />
 	</div>
 

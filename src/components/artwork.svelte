@@ -17,7 +17,7 @@
 			constructor() {
 				this.fillColor = p.color(getRandomFromArr(config.colors));
 				this.rotateAngle = getRandomFromArr(rotationDeg);
-				this.sideLength = 324;
+				this.sideLength = document.getElementById('canvas').clientWidth;
 				this.yOffset = p.random(-p.height, p.height);
 				this.scrollAmount = getRandomFromArr(scrollAmount);
 			}
@@ -57,7 +57,7 @@
 
 	const sketch = (p5) => {
 		p5.setup = () => {
-			p5.createCanvas(324, p5.windowHeight);
+			p5.createCanvas(document.getElementById('canvas').clientWidth, p5.windowHeight - 4);
 			p5.noLoop();
 			p5.mouseClicked = () => {
 				p5.clear();

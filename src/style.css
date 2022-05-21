@@ -3,7 +3,7 @@
 
 /* Base setup */
 html {
-	font-size: 30px;
+	font-size: 1.5625vw;
 }
 
 body {
@@ -23,36 +23,36 @@ body > div {
 
 .main {
 	box-sizing: border-box;
-	padding: 25px 50px 27px 64px;
-	width: 1186px;
+	padding: 25px 2.60416666667vw 27px 64px;
+	width: 61.7708333333vw;
 }
 
 .main__grid {
-	column-gap: 50px;
+	column-gap: 2.60416666667vw;
 	display: grid;
-	grid-template-columns: repeat(3, 324px);
-	grid-template-rows: repeat(4, 200px);
-	row-gap: 40px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 20.5761316872vh);
+	row-gap: 2.08333333333vw;
 }
 
 .art {
 	box-sizing: border-box;
 	padding: 0;
-	width: 324px;
+	width: 16.875vw;
 }
 
 .nav {
 	box-sizing: border-box;
-	padding: 25px 36px 27px 50px;
-	width: 410px;
+	padding: 25px 36px 27px 2.60416666667vw;
+	width: 21.3541666667vw;
 }
 
 .nav__grid {
-	column-gap: 50px;
+	column-gap: 2.60416666667vw;
 	display: grid;
-	grid-template-columns: repeat(1, 324px);
-	grid-template-rows: repeat(4, 200px);
-	row-gap: 40px;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(4, 20.5761316872vh);
+	row-gap: 2.08333333333vw;
 }
 
 /* Brand */
@@ -93,31 +93,7 @@ body > div {
 	font-family: 'Gothic A1', sans-serif;
 	font-size: 2.8rem;
 	font-weight: 400;
-	line-height: 1.428571;
-}
-
-.decorative-horizontal {
-	align-self: end;
-	grid-column: 2 / span 2;
-	grid-row: 3 / span 1;
-}
-
-.decorative-horizontal__line {
-	background-color: black;
-	height: 30px;
-	width: 698px;
-}
-
-.decorative-vertical {
-	justify-self: end;
-	grid-column: 2 / span 2;
-	grid-row: 3 / span 1;
-}
-
-.decorative-vertical__line {
-	background-color: black;
-	height: 170px;
-	width: 30px;
+	line-height: 1.42857142857;
 }
 
 /* Grid Control */
