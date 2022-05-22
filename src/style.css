@@ -21,11 +21,10 @@ p {
 
 a {
 	color: black;
-	text-decoration: none;
 }
 
 a:hover {
-	color: #4d4d4d;
+	color: #ef0f8b;
 }
 
 /* Containers and Grids */
@@ -96,6 +95,7 @@ a:hover {
 	font-size: 1.6rem;
 	font-weight: 400;
 	line-height: 1.666667;
+	text-decoration: none;
 }
 
 /* Grid Control */
