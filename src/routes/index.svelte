@@ -31,7 +31,7 @@
 
 	.decorative-horizontal__line {
 		background-color: black;
-		height: 30px;
+		height: 1rem;
 		width: 2fr;
 	}
 
@@ -44,6 +44,6 @@
 	.decorative-vertical__line {
 		background-color: black;
 		height: 20.5761316872vh;
-		width: 30px;
+		width: 1rem;
 	}
 </style>
