@@ -6,8 +6,10 @@
 		action.
 	</p>
 	<p class="about__text">
-		I am on a lookout to contribute to social or environmental projects. Reach me on Linkedin if you
-		wish to collaborate!
+		I am on a lookout for social or environmental projects. Reach me on <a
+			href="https://www.linkedin.com/in/arthur-wong/"
+			target="_blank">Linkedin</a
+		> if you wish to collaborate!
 	</p>
 </div>
 
