@@ -3,8 +3,11 @@
 	<p class="about__text">
 		I am driven by the desire to design and build things. At the core, I'm a software engineer but I
 		enjoy being involved in multiple areas of product development and see the results of my work in
-		action. I am easily inspired to learn new things and to challenge myself, and always on the
-		lookout for interesting projects.
+		action.
+	</p>
+	<p class="about__text">
+		I am on a lookout to contribute to social or environmental projects. Reach me on Linkedin if you
+		wish to collaborate!
 	</p>
 </div>
 
