@@ -35,7 +35,7 @@ a:hover {
 
 .main {
 	box-sizing: border-box;
-	padding: 25px 2.60416666667vw 27px 64px;
+	padding: 2.57201646091vh 2.60416666667vw 2.77777777778vh 3.33333333333vw;
 	width: 61.7708333333vw;
 }
 
@@ -44,7 +44,7 @@ a:hover {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(4, 20.5761316872vh);
-	row-gap: 2.08333333333vw;
+	row-gap: 4.11522633745vh;
 }
 
 .art {
@@ -55,7 +55,7 @@ a:hover {
 
 .nav {
 	box-sizing: border-box;
-	padding: 25px 36px 27px 2.60416666667vw;
+	padding: 2.57201646091vh 1.875vw 2.77777777778vh 2.60416666667vw;
 	width: 21.3541666667vw;
 }
 
