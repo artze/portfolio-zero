@@ -48,7 +48,7 @@
 					<a href="/about" class="nav-menu__text">About</a>
 				</div>
 				<div class="nav-menu__item">
-					<a href="/" class="nav-menu__text">Contact</a>
+					<a href="/contact" class="nav-menu__text">Contact</a>
 				</div>
 				<div class="nav-menu__item">
 					<a href="https://journal.artze.xyz" class="nav-menu__text" target="_blank">Journal</a>
