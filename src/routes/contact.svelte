@@ -7,11 +7,11 @@
 	</p>
 	<span class="contact__text contact__text--block">
 		Drop me a message on
-		<a href="https://www.linkedin.com/in/arthur-wong/" target="_blank">Linkedin</a>!
+		<a href="https://www.linkedin.com/in/arthur-wong/" target="_blank">Linkedin</a>
 	</span>
 	<span class="contact__text contact__text--block">
 		Have a look at my
-		<a href="https://github.com/artze" target="_blank">Github</a>!
+		<a href="https://github.com/artze" target="_blank">Github</a>
 	</span>
 </div>
 
