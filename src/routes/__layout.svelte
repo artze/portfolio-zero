@@ -4,6 +4,10 @@
 	import Artwork from '../components/artwork.svelte';
 </script>
 
+<svelte:head>
+	<title>Arthur W</title>
+</svelte:head>
+
 <div class="container">
 	<div class="main">
 		<div class="main__grid">
