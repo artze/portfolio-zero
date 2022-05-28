@@ -48,6 +48,9 @@
 					<a href="/about" class="nav-menu__text">About</a>
 				</div>
 				<div class="nav-menu__item">
+					<a href="/keywords" class="nav-menu__text">Keywords</a>
+				</div>
+				<div class="nav-menu__item">
 					<a href="/contact" class="nav-menu__text">Contact</a>
 				</div>
 				<div class="nav-menu__item">
