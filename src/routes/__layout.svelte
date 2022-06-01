@@ -6,6 +6,10 @@
 
 <svelte:head>
 	<title>Arthur W</title>
+	<script
+		data-goatcounter="https://artze.goatcounter.com/count"
+		async
+		src="//gc.zgo.at/count.js"></script>
 </svelte:head>
 
 <div class="container">
