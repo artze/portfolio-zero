@@ -24,7 +24,6 @@
 				mutations.forEach(function (mutation) {
 					if (oldHref != document.location.href) {
 						oldHref = document.location.href;
-						console.log('hit');
 						window.goatcounter.count({
 							path: location.pathname
 						});
