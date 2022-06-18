@@ -15,7 +15,6 @@
 		//
 		// The default setup only detects 'hits' when there is
 		// a fresh HTML document load.
-		//
 		var oldHref = document.location.href;
 
 		window.onload = function () {
