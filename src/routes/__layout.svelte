@@ -117,13 +117,15 @@
 	</div>
 </div>
 <div class="screen-warning">
-	<p class="screen-warning__text">Your screen size is not optimal for this site :(</p>
+	<span class="screen-warning__text">This site does not work on mobile :(</span>
+	<span class="screen-warning__text">Please view this site on your laptop/desktop</span>
 </div>
 
 <style>
 	.screen-warning {
-		align-items: center;
+		align-content: center;
 		display: none;
+		flex-wrap: wrap;
 		height: 100%;
 		justify-content: center;
 	}
@@ -132,6 +134,6 @@
 		font-family: 'Roboto', sans-serif;
 		font-size: 0.7rem;
 		font-weight: 300;
-		line-height: 1.333333;
+		line-height: 1.5;
 	}
 </style>
