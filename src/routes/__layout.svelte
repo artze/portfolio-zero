@@ -2,6 +2,21 @@
 	import '../reset.css';
 	import '../style.css';
 	import Artwork from '../components/artwork.svelte';
+	import { onMount } from 'svelte';
+
+	onMount(function () {
+		/**
+		 * If screen size is not optimum:
+		 * - Hide main content
+		 * - Display warning message
+		 */
+		if (window.screen.width < 500 || window.screen.width / window.screen.height < 1.5) {
+			const containerEl = document.getElementsByClassName('container')[0];
+			const screenWarningEl = document.getElementsByClassName('screen-warning')[0];
+			containerEl.style.display = 'none';
+			screenWarningEl.style.display = 'flex';
+		}
+	});
 </script>
 
 <svelte:head>
@@ -101,3 +116,24 @@
 		</div>
 	</div>
 </div>
+<div class="screen-warning">
+	<span class="screen-warning__text">This site does not work on mobile :(</span>
+	<span class="screen-warning__text">Please view this site on your laptop/desktop</span>
+</div>
+
+<style>
+	.screen-warning {
+		align-content: center;
+		display: none;
+		flex-wrap: wrap;
+		height: 100%;
+		justify-content: center;
+	}
+
+	.screen-warning__text {
+		font-family: 'Roboto', sans-serif;
+		font-size: 0.7rem;
+		font-weight: 300;
+		line-height: 1.5;
+	}
+</style>
