@@ -57,7 +57,7 @@
 
 	const sketch = (p5) => {
 		p5.setup = () => {
-			p5.createCanvas(document.getElementById('canvas').clientWidth, p5.windowHeight - 4);
+			p5.createCanvas(document.getElementById('canvas').clientWidth, p5.windowHeight);
 			p5.noLoop();
 			p5.mouseClicked = () => {
 				p5.clear();
