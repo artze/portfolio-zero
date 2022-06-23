@@ -2,6 +2,21 @@
 	import '../reset.css';
 	import '../style.css';
 	import Artwork from '../components/artwork.svelte';
+	import { onMount } from 'svelte';
+
+	onMount(function () {
+		/**
+		 * If screen size is not optimum:
+		 * - Hide main content
+		 * - Display warning message
+		 */
+		if (window.screen.width < 500 || window.screen.width / window.screen.height < 1.5) {
+			const containerEl = document.getElementsByClassName('container')[0];
+			const screenWarningEl = document.getElementsByClassName('screen-warning')[0];
+			containerEl.style.display = 'none';
+			screenWarningEl.style.display = 'flex';
+		}
+	});
 </script>
 
 <svelte:head>
@@ -101,3 +116,22 @@
 		</div>
 	</div>
 </div>
+<div class="screen-warning">
+	<p class="screen-warning__text">Your screen size is not optimal for this site :(</p>
+</div>
+
+<style>
+	.screen-warning {
+		align-items: center;
+		display: none;
+		height: 100%;
+		justify-content: center;
+	}
+
+	.screen-warning__text {
+		font-family: 'Roboto', sans-serif;
+		font-size: 0.7rem;
+		font-weight: 300;
+		line-height: 1.333333;
+	}
+</style>
