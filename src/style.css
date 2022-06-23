@@ -49,6 +49,7 @@ a:hover {
 
 .art {
 	box-sizing: border-box;
+	overflow: hidden;
 	padding: 0;
 	width: 16.875vw;
 }
