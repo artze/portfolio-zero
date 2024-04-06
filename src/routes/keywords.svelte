@@ -6,6 +6,7 @@
 	<span class="keywords__text">Vuejs</span>
 	<span class="keywords__text">AWS</span>
 	<span class="keywords__text">Google Cloud Platform</span>
+	<span class="keywords__text">k6</span>
 </div>
 <div class="keywords keywords--col-2">
 	<span class="keywords__text">Docker</span>
